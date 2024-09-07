@@ -23,7 +23,9 @@ This repository demonstrates the development and application of machine learning
 ## 📘 Introduction
 Breast cancer remains one of the most common and deadly forms of cancer worldwide. Early detection significantly increases the survival rate, making accurate and timely diagnosis crucial. This project explores the use of machine learning models to improve diagnostic accuracy, particularly in distinguishing between **benign** and **malignant** breast tumors. By analyzing cell nucleus characteristics from biopsy images, this project seeks to reduce false positives and false negatives, leading to better patient outcomes.
 
-- **Figure 1**: Insert **bar chart** showing breast cancer incidence rates across racial and ethnic groups from 2016 to 2020. _(Reference: WHO)_
+<div align="center">
+    <img src="https://github.com/user-attachments/assets/fc216abf-c5bc-4725-83dd-4d05651d406b" alt="Image description">
+</div>
 
 ---
 
@@ -37,8 +39,9 @@ The dataset used in this project is the **Wisconsin Breast Cancer Diagnostic Dat
 ### 🧠 Feature Engineering
 Feature selection and engineering were performed using correlation matrices and **Principal Component Analysis (PCA)**. This enabled the identification of the most discriminative features, such as **mean radius**, **perimeter**, and **area** for tumor diagnosis. The features were processed to standardize values and prepare the dataset for modeling.
 
-- **Figure 5**: Include **correlation matrix** between features such as mean radius, perimeter, and area.
-- **Figure 7**: Insert **heatmap** showing the hierarchical clustering of features (e.g., Worst_A, Worst_Perim).
+<div align="center">
+    <img src="https://github.com/user-attachments/assets/0a6bb236-7c73-4ed1-9887-3ce249083b0b" alt="Image description" width="900">
+</div>
 
 ### 🔄 Modeling
 Several machine learning algorithms were used to predict tumor malignancy:
@@ -49,7 +52,10 @@ Several machine learning algorithms were used to predict tumor malignancy:
 
 Each model was trained and evaluated using **cross-validation** and **grid search** for hyperparameter optimization.
 
-- **Figure 9**: Insert **PCA plot** showing the separation of benign and malignant cases based on principal components.
+<div align="center">
+    <img src="https://github.com/user-attachments/assets/f33ff800-d615-45ee-947b-90e30873bf27" alt="Image description" width="500">
+</div>
+
 
 ### 📊 Evaluation
 The models were evaluated using key metrics including:
@@ -58,7 +64,9 @@ The models were evaluated using key metrics including:
 - **Specificity**: Ability to correctly identify benign tumors.
 - **AUC-ROC**: The area under the ROC curve for evaluating classification performance.
 
-- **Figure 11**: Include **ROC curves** for models such as Logistic Regression, SVM, and Random Forest.
+<div align="center">
+    <img src="https://github.com/user-attachments/assets/434e7d7f-cabb-4486-b75b-e38a2c42fbd6" alt="Image description">
+</div>
 
 ---
 
@@ -69,9 +77,15 @@ The models were evaluated using key metrics including:
 - **Logistic Regression** demonstrated stable performance, making it a reliable choice for healthcare applications where interpretability is crucial.
 - **Random Forest** showed some overfitting tendencies but provided useful feature importance insights.
 
-- **Table 1**: Insert **model comparison table** showing accuracy, sensitivity, specificity, and AUC for models using mean features.
-- **Table 2**: Include **evaluation table** for models using standard error features.
-- **Table 3**: Include **evaluation table** for models using worst features.
+<div align="center">
+    <img src="https://github.com/user-attachments/assets/c6267855-9b4e-4d0e-9e7b-07a1e1c0fd3b">
+</div>
+<div align="center">
+    <img src="https://github.com/user-attachments/assets/0f04fd96-e4eb-497c-a771-a32157f01ea1">
+</div>
+<div align="center">
+    <img src="https://github.com/user-attachments/assets/540b197b-1c45-4653-b80b-602800de193d">
+</div>
 
 ---
 
